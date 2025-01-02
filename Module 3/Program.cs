@@ -4,21 +4,17 @@ class Program
 {
     static void Main(string[] args)
     {
-        DaysOfWeek MyFavouriteDay = DaysOfWeek.Friday;
+        Semaphore MyFavouriteSemaphoreColor = Semaphore.Green;
 
-        Console.WriteLine(MyFavouriteDay);
+        Console.WriteLine(MyFavouriteSemaphoreColor);
         
         Console.ReadKey();
     }
 
-    enum DaysOfWeek : byte
+    enum Semaphore
     {
-        Monday = 1,
-        Tuesday,
-        Wednesday,
-        Thursday,
-        Friday,
-        Saturday,
-        Sunday
+        Red = 100,
+        Yellow = 200,
+        Green = 300
     }
 }
