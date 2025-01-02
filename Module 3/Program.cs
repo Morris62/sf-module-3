@@ -13,6 +13,11 @@ class Program
         Console.WriteLine("My age is " + MyAge);
         Console.WriteLine("Do I have a pet? " + HaveIPet);
         Console.WriteLine("My shoe size is " + MyShoeSize);
+
+        Console.WriteLine("Int.MaxValue {0}", int.MaxValue);
+        Console.WriteLine("Int.MinValue {0}", int.MinValue);
+        Console.WriteLine("Double.MaxValue {0}", double.MaxValue);
+        Console.WriteLine("Double.MinValue {0}", double.MinValue);
         
         Console.ReadKey();
     }
