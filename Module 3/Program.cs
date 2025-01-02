@@ -7,9 +7,9 @@ class Program
         const string myName = "Jane";
         Console.WriteLine(myName);
 
-        Console.WriteLine("Привет, мир");
-        Console.WriteLine("Мне 41 год");
-        Console.WriteLine("My name is Jane");
+        Console.WriteLine("\t Привет, мир");
+        Console.WriteLine("\t Мне 41 год");
+        Console.WriteLine("\t My name is \n Jane");
         
         Console.ReadKey();
     }
